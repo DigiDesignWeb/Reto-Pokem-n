@@ -1,0 +1,38 @@
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+}
+h2{
+    font-weight: 400;
+}
+#container__pokemon {
+    display: flex;
+    flex-wrap: wrap;
+    width: 80%;
+    margin: 0 auto;
+
+}
+
+.card {
+
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 10px;
+    width: 150px;
+    background-color: rgb(0, 0, 0);
+    color: beige;
+    text-transform: capitalize;
+}
+
+.card img {
+    width: 100px;
+    height: 100px;
+}
+
+.card:hover {
+    background-color: beige;
+    color: black;
+    cursor: pointer;
+    box-shadow: inset 2px 2px black;
+}
